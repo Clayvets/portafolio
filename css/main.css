@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+
+#naveH{
+    display: flex;
+    justify-content: flex-end;
+    background-color: aqua;
+}
+head{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+>>>>>>> parent of e3377d5 (Cambio de color)
 body{
     
     background-color: #330033;
