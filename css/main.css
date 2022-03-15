@@ -19,7 +19,7 @@ body{
 
         body{
             
-           /*  background-image: url(../imgs/fondoCelular.png); */
+            background-image: url(../imgs/fondoCelular.png);
             background: aqua;
             background-repeat: no-repeat;
             width: 480px;
@@ -27,9 +27,13 @@ body{
             margin: 0;
         }
 
-        .logo{
+        .controles_menu{
             
         }
+
+        .logo{}
+
+        
 
         
 
