@@ -1,5 +1,5 @@
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 body{
     margin: 0;
-}
+} */
 
 /*Celular*/
 @media only screen
@@ -19,7 +19,7 @@ body{
 
         body{
             
-            background-image: url(../imgs/fondoCelular.png);
+           /*  background-image: url(../imgs/fondoCelular.png); */
             background: aqua;
             background-repeat: no-repeat;
             width: 480px;
@@ -27,11 +27,17 @@ body{
             margin: 0;
         }
 
-        #menu_hamburguesa{
+        .logo{
+            
+        }
+
+        
+
+        /* #menu_hamburguesa{
             margin-top: 0px;
             list-style: none;
             padding-left: 0;
-        }
+        } */
         .main_nav__item{
             display: inline-block;
         
@@ -99,33 +105,33 @@ body{
 
 
 /*PRUEBA PABLOOO solo lo quite para ver mejor*/
-#naveH{
-}
-.main_nav{
+/* #naveH{
+} */
+/* .main_nav{
     margin-top: 0px;
     list-style: none;
     padding-left: 0;
-}
-.main_nav__item{
+} */
+/* .main_nav__item{
     display: inline-block;
 
-}
+} */
 
-.main_nav__item a{
+/* .main_nav__item a{
     color: white;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
-    /*background-color: aqua;*/
-}
+    
+} */
 
-.main_nav__item a:hover{/* que el mause este encima de el elemento pseudo clases estilo de un elemento*/
+/* .main_nav__item a:hover{
     color: rgb(209, 93, 255);
 }
-
-.main_nav__item:active{/* al clieckear */
+ */
+/* .main_nav__item:active{
     color: black;
-}
+} */
 
 /* .main_nav__item::after{
     content: " | ";
@@ -141,7 +147,7 @@ body{
     background: pink;
     margin:0 auto;
 } */
-
+/*PRUEBA PABLOOO solo lo quite para ver mejor*/
 
 /*AUN NO TRABAJARE CON ELLOS*/
 /*Tablet*/
