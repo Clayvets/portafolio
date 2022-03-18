@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    
     
 }
 
@@ -51,7 +54,8 @@
 }
 
 .menu a:hover, .mostrar_menu, .esconder_menu{
-    color: #4E4AD9;
+    background-color: #4E4AD9;
+    
 }
 
 #menu_hamburguesa{
@@ -65,7 +69,27 @@ body {
     background-repeat: no-repeat;
     background-position-x:center;
     background-attachment: scroll;
-}
+} 
+
+.alien_interactivo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .alien { grid-area: 4 / 2 / 5 / 3; }
+    .raya { grid-area: 4 / 3 / 5 / 4; }
+    .raya { grid-area: 4 / 4 / 5 / 5; }
+    .raya { grid-area: 3 / 4 / 4 / 5; }
+    .raya { grid-area: 2 / 4 / 3 / 5; }
+    .planeta1 { grid-area: 2 / 5 / 3 / 6; }
+    .planeta2 { grid-area: 4 / 5 / 5 / 6; }
+    .raya { grid-area: 5 / 4 / 6 / 5; }
+    .raya { grid-area: 6 / 4 / 7 / 5; }
+    .planeta3 { grid-area: 6 / 5 / 7 / 6; }
+
 
 /*RESPONSIVE*/
 /*Tablet*/
@@ -80,7 +104,38 @@ body {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #000000;
+        background: #4E4AD9;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.4s;
+    }
+
+    .main_nav__item{
+        display: block;
+        padding: 20px;
+    }
+
+    .main_nav__item::after{
+        color: white;
+        content: " ";
+    }
+
+    .menu a:hover, .mostrar_menu, .esconder_menu{
+        color: #0008A1;
+    }
+
+    .esconder_menu{
+        position: absolute;
+        /*Posicion alien que cierra el menu hamburguesa*/
+        top: 35px;
+        right: 50px;
+    }
+
+    #menu_hamburguesa:checked ~ .menu{
+        right: 0;
 
     }
 }
