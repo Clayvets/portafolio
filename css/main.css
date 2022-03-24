@@ -66,6 +66,7 @@
 body {
     
     background-image: url("../imgs/fondoEspacio.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x:center;
     background-attachment: scroll;
