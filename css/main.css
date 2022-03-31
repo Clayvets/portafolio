@@ -72,11 +72,13 @@ body {
 } 
 
 .alien_interactivo {
+    background-color: red;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    height: 800px;
     }
     
     .alien { grid-area: 4 / 2 / 5 / 3; }
@@ -93,7 +95,9 @@ body {
 
 /*RESPONSIVE*/
 /*Tablet*/
-@media(max-width: 768px) {
+@media (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+{
 
     /*HEADER*/
     .mostrar_menu, .esconder_menu{
