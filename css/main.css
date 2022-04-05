@@ -54,7 +54,7 @@
 }
 
 .menu a:hover, .mostrar_menu, .esconder_menu{
-    background-color: #4E4AD9;
+    background-color: #00000000;
     
 }
 
@@ -103,15 +103,17 @@ body {
 
     .menu{
         position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #4E4AD9;
+        width: 20%;
+        height: 50vh;
+        background: #00000090;
         right: -100%;
         top: 0;
         text-align: center;
         padding: 100px 0px;
         z-index: 100;
         transition: 0.4s;
+        border: #0008A1;
+        border-bottom-left-radius: 5px;
     }
 
     .main_nav__item{
