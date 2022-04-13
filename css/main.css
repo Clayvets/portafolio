@@ -73,6 +73,10 @@ body {
     background-attachment: scroll;
 } 
 
+.descripcion{
+    color: white;
+}
+
 .alien_interactivo {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
