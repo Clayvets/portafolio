@@ -77,11 +77,13 @@ body {
 
 .perfil{
     padding: 10px;
-    margin: 50px;
     display: flex;
     justify-content: center;
     float: left;
-    width: 250px;
+    width:30%; height:30%;
+    
+
+
     
 }
 
