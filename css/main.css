@@ -73,33 +73,39 @@ body {
     background-attachment: scroll;
 } 
 
+.footer{
+    justify-content:left;
+    color: white;
+}
+
 /*Sobre mi*/
 
 .perfil{
     padding: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     float: left;
     width:30%; height:30%;
     
-
-
-    
-}
-
-.nombre{
-
-    margin: 50px;
-    text-align: center;
-    color: white;
-    font-size: 30px;
 }
 
 .descripcion{
     color: white;
     margin: 50px;
+    
     font-size: 20px;
 }
+
+.nombre{
+
+    margin: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
 
 
 .alien_interactivo {
