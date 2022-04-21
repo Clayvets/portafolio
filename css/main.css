@@ -73,9 +73,32 @@ body {
     background-attachment: scroll;
 } 
 
+/*Sobre mi*/
+
+.perfil{
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 250px;
+    
+}
+
+.nombre{
+
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
 .descripcion{
     color: white;
+    margin: 50px;
+    font-size: 20px;
 }
+
 
 .alien_interactivo {
     display: grid;
@@ -95,6 +118,11 @@ body {
     .raya { grid-area: 5 / 4 / 6 / 5; }
     .raya { grid-area: 6 / 4 / 7 / 5; }
     .planeta3 { grid-area: 6 / 5 / 7 / 6; }
+
+    
+
+
+
 
 
 /*RESPONSIVE*/
