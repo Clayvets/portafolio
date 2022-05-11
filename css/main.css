@@ -73,9 +73,13 @@ body {
     background-attachment: scroll;
 } 
 
-.footer{
+footer{
+    border: 0mm;
+    margin-right: 0%;
+    width:30%;
     justify-content:left;
     color: white;
+    text-align: right;
 }
 
 /*Sobre mi*/
@@ -186,7 +190,25 @@ body {
 
 
 
-
+/* unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(126, 255, 249);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(75, 61, 126);
+  }
 
 
 
