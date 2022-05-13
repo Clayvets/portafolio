@@ -212,6 +212,20 @@ footer {
 
 }
 
+/*Contacto*/
+
+.contacto{
+    padding: 0px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 30%;
+    
+}
+
 
 
 /*RESPONSIVE*/
