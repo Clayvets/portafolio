@@ -201,14 +201,17 @@ footer {
 }
 
 .fotoText {
+    color: #ffffff;
     display: flex;
     /*float: left;*/
     padding: 10px;
     margin: 20px;
     width: 80%;
     text-align: center;
+    
 
 }
+
 
 
 /*RESPONSIVE*/
@@ -364,6 +367,7 @@ footer {
 /* unvisited link */
 a:link {
     color: rgb(255, 255, 255);
+
 }
 
 /* visited link */
